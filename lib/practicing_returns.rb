@@ -10,7 +10,7 @@ def hello(array)
   collection
 end
 
-yielding hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
+hello(["Tim", "Tom", "Jim"]) { |name| "Hi, #{name}" }
 
 
 hello (["hello", "well", "new"])
